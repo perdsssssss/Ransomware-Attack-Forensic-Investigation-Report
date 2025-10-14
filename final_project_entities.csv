@@ -1,0 +1,16 @@
+entity_type,entity_value,frequency,first_seen,last_seen,hostnames
+encrypted_file,C:\Users\jsmith\report_6.locked,3,2025-09-27 15:18:00,2025-09-27 15:37:00,"WORKSTATION-005, WORKSTATION-023"
+encrypted_file,C:\Users\akumar\report_18.locked,1,2025-09-27 15:15:00,2025-09-27 15:15:00,WORKSTATION-001
+encrypted_file,C:\Users\jsmith\report_38.locked,1,2025-09-27 15:15:00,2025-09-27 15:15:00,WORKSTATION-009
+encrypted_file,C:\Users\akumar\report_19.locked,1,2025-09-27 15:17:00,2025-09-27 15:17:00,WORKSTATION-009
+encrypted_file,C:\Users\jsmith\report_28.locked,1,2025-09-27 15:17:00,2025-09-27 15:17:00,WORKSTATION-001
+encrypted_file,C:\Users\mjones\report_15.locked,1,2025-09-27 15:18:00,2025-09-27 15:18:00,WORKSTATION-023
+encrypted_file,C:\Users\mjones\report_46.locked,1,2025-09-27 15:19:00,2025-09-27 15:19:00,WORKSTATION-006
+encrypted_file,C:\Users\akumar\report_25.locked,1,2025-09-27 15:19:00,2025-09-27 15:19:00,WORKSTATION-005
+encrypted_file,C:\Users\akumar\report_47.locked,1,2025-09-27 15:19:00,2025-09-27 15:19:00,WORKSTATION-023
+encrypted_file,C:\Users\jsmith\report_18.locked,1,2025-09-27 15:20:00,2025-09-27 15:20:00,WORKSTATION-005
+external_ip,45.129.33.197,42,2025-09-27 14:15:00,2025-09-27 15:15:00,"WORKSTATION-023, WORKSTATION-001, WORKSTATION-008"
+external_ip,,0,,,
+malicious_process,encrypt_v2.exe,42,2025-09-27 14:25:00,2025-09-27 15:45:00,"WORKSTATION-023, WORKSTATION-002, WORKSTATION-001"
+malicious_process,svchost32.exe,40,2025-09-27 14:24:00,2025-09-27 15:15:00,"WORKSTATION-023, WORKSTATION-003, WORKSTATION-004"
+malicious_process,update_office365.exe,8,2025-09-27 14:15:00,2025-09-27 14:40:00,"WORKSTATION-023, WORKSTATION-001, WORKSTATION-008"

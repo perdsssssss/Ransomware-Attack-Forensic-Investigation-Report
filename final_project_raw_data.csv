@@ -1,0 +1,301 @@
+event_id,timestamp,hostname,user_account,process_name,event_type,file_modified,network_connection,event_severity,raw_message
+10143,2025-09-26 08:11:28,WORKSTATION-002,NaN,chrome.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10044,2025-09-26 08:12:06,WORKSTATION-002,jsmith,chrome.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10000,2025-09-26 08:54:38,WORKSTATION-005,jsmith,explorer.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10089,2025-09-26 09:03:14,WORKSTATION-001,jsmith,outlook.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10176,2025-09-26 09:25:00,WORKSTATION-003,mjones,word.exe,network_connection,NaN,192.168.1.18,Low,Normal activity on WORKSTATION-010
+10003,2025-09-26 09:34:55,WORKSTATION-008,mjones,explorer.exe,process_creation,C:\Users\report_80.docx,192.168.1.33,Medium,Normal activity on WORKSTATION-004
+10066,2025-09-26 09:39:25,WORKSTATION-001,akumar,chrome.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10206,2025-09-26 09:46:20,WORKSTATION-004,mjones,excel.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10116,2025-09-26 10:32:00,WORKSTATION-003,jsmith,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10168,2025-09-26 10:39:24,WORKSTATION-001,mjones,excel.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10153,2025-09-26 10:54:54,WORKSTATION-006,mjones,excel.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10111,2025-09-26 11:27:43,WORKSTATION-006,akumar,outlook.exe,process_creation,C:\Users\report_88.docx,192.168.1.14,Low,Normal activity on WORKSTATION-002
+10112,2025-09-26 11:30:56,WORKSTATION-006,akumar,explorer.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10170,2025-09-26 11:31:29,WORKSTATION-001,mjones,word.exe,network_connection,NaN,192.168.1.20,Low,Normal activity on WORKSTATION-010
+10142,2025-09-26 11:36:27,WORKSTATION-006,jsmith,explorer.exe,process_creation,C:\Users\report_61.docx,NaN,Low,Normal activity on WORKSTATION-008
+10123,2025-09-26 11:51:15,WORKSTATION-004,mjones,word.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10173,2025-09-26 11:54:49,WORKSTATION-007,mjones,outlook.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10096,2025-09-26 12:48:42,WORKSTATION-009,mjones,word.exe,process_creation,C:\Users\report_33.docx,192.168.1.40,Low,Normal activity on WORKSTATION-006
+10052,2025-09-26 12:56:26,WORKSTATION-008,mjones,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-005
+10193,2025-09-26 13:07:10,WORKSTATION-008,jsmith,explorer.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10208,2025-09-26 13:12:57,WORKSTATION-009,mjones,outlook.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10082,2025-09-26 13:15:58,WORKSTATION-007,akumar,word.exe,file_modification,C:\Users\report_36.docx,NaN,Low,Normal activity on WORKSTATION-006
+10125,2025-09-26 13:19:54,WORKSTATION-005,akumar,chrome.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10048,2025-09-26 13:29:29,WORKSTATION-004,jsmith,chrome.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10027,2025-09-26 13:44:36,WORKSTATION-008,akumar,outlook.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10164,2025-09-26 13:53:49,WORKSTATION-006,jsmith,outlook.exe,process_creation,C:\Users\report_33.docx,NaN,Medium,Normal activity on WORKSTATION-005
+10073,2025-09-26 14:02:27,WORKSTATION-005,akumar,outlook.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10124,2025-09-26 14:07:17,WORKSTATION-002,jsmith,word.exe,file_modification,C:\Users\report_45.docx,NaN,Medium,Normal activity on WORKSTATION-003
+10189,2025-09-26 14:24:00,WORKSTATION-001,mjones,excel.exe,file_modification,C:\Users\report_38.docx,192.168.1.10,Low,Normal activity on WORKSTATION-010
+10192,2025-09-26 15:01:58,WORKSTATION-003,akumar,excel.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10005,2025-09-26 15:37:40,WORKSTATION-005,akumar,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10103,2025-09-26 15:43:21,WORKSTATION-010,jsmith,outlook.exe,file_modification,C:\Users\report_73.docx,NaN,Medium,Normal activity on WORKSTATION-004
+10138,2025-09-26 16:42:28,WORKSTATION-005,mjones,chrome.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10172,2025-09-26 16:45:52,WORKSTATION-004,jsmith,explorer.exe,process_creation,NaN,192.168.1.40,Low,Normal activity on WORKSTATION-009
+10013,2025-09-26 16:46:11,WORKSTATION-010,jsmith,excel.exe,file_access,C:\Users\report_69.docx,NaN,Low,Normal activity on WORKSTATION-008
+10183,2025-09-26 16:58:31,WORKSTATION-005,jsmith,outlook.exe,process_creation,C:\Users\report_89.docx,NaN,Low,Normal activity on WORKSTATION-008
+10055,2025-09-26 17:19:46,WORKSTATION-006,akumar,explorer.exe,file_modification,C:\Users\report_14.docx,NaN,Low,Normal activity on WORKSTATION-010
+10158,2025-09-26 17:28:36,WORKSTATION-008,akumar,outlook.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10087,2025-09-26 17:38:57,WORKSTATION-006,mjones,explorer.exe,process_creation,C:\Users\report_69.docx,NaN,Low,Normal activity on WORKSTATION-008
+10179,2025-09-26 17:40:03,WORKSTATION-010,akumar,explorer.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10017,2025-09-26 18:08:20,WORKSTATION-008,jsmith,word.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10035,2025-09-26 18:08:37,WORKSTATION-002,mjones,outlook.exe,network_connection,NaN,192.168.1.31,Low,Normal activity on WORKSTATION-002
+10131,2025-09-26 18:17:59,WORKSTATION-007,mjones,word.exe,file_access,C:\Users\report_83.docx,NaN,Low,Normal activity on WORKSTATION-002
+10128,2025-09-26 18:27:07,WORKSTATION-002,jsmith,word.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-001
+10144,2025-09-26 18:29:22,WORKSTATION-004,jsmith,chrome.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10207,2025-09-26 18:31:54,WORKSTATION-004,akumar,word.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10040,2025-09-26 18:57:26,WORKSTATION-007,jsmith,outlook.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-006
+10165,2025-09-26 19:01:31,WORKSTATION-010,akumar,chrome.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-006
+10150,2025-09-26 19:17:22,WORKSTATION-009,akumar,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10182,2025-09-26 19:25:24,WORKSTATION-003,akumar,outlook.exe,process_creation,NaN,192.168.1.26,Medium,Normal activity on WORKSTATION-008
+10117,2025-09-26 19:48:37,WORKSTATION-010,jsmith,chrome.exe,file_modification,C:\Users\report_7.docx,NaN,Low,Normal activity on WORKSTATION-008
+10109,2025-09-26 19:50:22,WORKSTATION-007,akumar,outlook.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10033,2025-09-26 20:05:40,WORKSTATION-007,akumar,chrome.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10190,2025-09-26 20:11:54,WORKSTATION-005,akumar,word.exe,network_connection,C:\Users\report_18.docx,192.168.1.39,Low,Normal activity on WORKSTATION-004
+10060,2025-09-26 20:14:52,WORKSTATION-001,mjones,chrome.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-005
+10002,2025-09-26 20:23:17,WORKSTATION-005,mjones,explorer.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10067,2025-09-26 20:24:17,WORKSTATION-003,mjones,excel.exe,file_access,C:\Users\report_52.docx,NaN,Medium,Normal activity on WORKSTATION-001
+10203,2025-09-26 20:39:42,WORKSTATION-002,akumar,excel.exe,file_modification,C:\Users\report_29.docx,192.168.1.11,Low,Normal activity on WORKSTATION-008
+10093,2025-09-26 21:04:09,WORKSTATION-010,akumar,outlook.exe,file_access,C:\Users\report_85.docx,NaN,Low,Normal activity on WORKSTATION-010
+10058,2025-09-26 21:11:12,WORKSTATION-008,mjones,chrome.exe,process_creation,NaN,192.168.1.40,Low,Normal activity on WORKSTATION-007
+10152,2025-09-26 21:22:28,WORKSTATION-009,jsmith,excel.exe,file_access,NaN,192.168.1.21,Medium,Normal activity on WORKSTATION-005
+10098,2025-09-26 21:25:11,WORKSTATION-005,akumar,outlook.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10031,2025-09-26 21:26:33,WORKSTATION-010,mjones,chrome.exe,file_access,NaN,192.168.1.12,Low,Normal activity on WORKSTATION-004
+10056,2025-09-26 21:39:52,WORKSTATION-007,jsmith,explorer.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-010
+10202,2025-09-26 21:55:32,WORKSTATION-008,mjones,excel.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10132,2025-09-26 22:04:27,WORKSTATION-005,akumar,word.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10147,2025-09-26 22:12:57,WORKSTATION-008,NaN,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10177,2025-09-26 22:18:25,WORKSTATION-010,mjones,word.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10157,2025-09-26 22:29:31,WORKSTATION-006,jsmith,explorer.exe,file_access,C:\Users\report_64.docx,NaN,Medium,Normal activity on WORKSTATION-002
+10021,2025-09-26 22:36:05,WORKSTATION-001,jsmith,excel.exe,process_creation,C:\Users\report_59.docx,NaN,Medium,Normal activity on WORKSTATION-009
+10039,2025-09-26 22:52:08,WORKSTATION-006,mjones,word.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10181,2025-09-26 22:56:28,WORKSTATION-009,mjones,explorer.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-008
+10146,2025-09-26 23:10:00,WORKSTATION-003,jsmith,word.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10049,2025-09-26 23:17:49,WORKSTATION-007,akumar,explorer.exe,network_connection,NaN,192.168.1.29,Low,Normal activity on WORKSTATION-007
+10209,2025-09-26 23:33:14,WORKSTATION-009,mjones,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10041,2025-09-27 00:05:54,WORKSTATION-004,akumar,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-006
+10102,2025-09-27 00:11:27,WORKSTATION-004,jsmith,outlook.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10045,2025-09-27 00:55:01,WORKSTATION-009,akumar,outlook.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-007
+10085,2025-09-27 01:13:13,WORKSTATION-007,akumar,chrome.exe,network_connection,C:\Users\report_17.docx,NaN,Medium,Normal activity on WORKSTATION-006
+10118,2025-09-27 01:40:56,WORKSTATION-010,mjones,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-010
+10022,2025-09-27 01:43:08,WORKSTATION-003,jsmith,explorer.exe,file_access,C:\Users\report_8.docx,NaN,Low,Normal activity on WORKSTATION-009
+10100,2025-09-27 01:56:09,WORKSTATION-002,akumar,chrome.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10195,2025-09-27 02:17:46,WORKSTATION-005,akumar,outlook.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10037,2025-09-27 02:37:13,WORKSTATION-002,akumar,chrome.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10069,2025-09-27 03:01:34,WORKSTATION-007,mjones,outlook.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10198,2025-09-27 03:32:21,WORKSTATION-003,akumar,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10084,2025-09-27 03:47:08,WORKSTATION-007,mjones,chrome.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10204,2025-09-27 03:49:21,WORKSTATION-007,jsmith,chrome.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10020,2025-09-27 04:02:12,WORKSTATION-002,akumar,explorer.exe,file_access,C:\Users\report_31.docx,NaN,Low,Normal activity on WORKSTATION-008
+10174,2025-09-27 04:08:32,WORKSTATION-005,akumar,excel.exe,process_creation,C:\Users\report_80.docx,NaN,Low,Normal activity on WORKSTATION-003
+10010,2025-09-27 04:08:32,WORKSTATION-001,jsmith,word.exe,process_creation,C:\Users\report_44.docx,NaN,Low,Normal activity on WORKSTATION-003
+10063,2025-09-27 04:09:04,WORKSTATION-009,akumar,word.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-005
+10026,2025-09-27 04:29:52,WORKSTATION-002,jsmith,word.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10156,2025-09-27 04:39:09,WORKSTATION-001,akumar,excel.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10024,2025-09-27 04:44:28,WORKSTATION-004,jsmith,word.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-006
+10161,2025-09-27 04:50:09,WORKSTATION-006,akumar,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-008
+10016,2025-09-27 05:25:28,WORKSTATION-004,NaN,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10071,2025-09-27 05:37:12,WORKSTATION-008,jsmith,outlook.exe,process_creation,C:\Users\report_59.docx,NaN,Low,Normal activity on WORKSTATION-005
+10001,2025-09-27 05:55:07,WORKSTATION-001,akumar,word.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10099,2025-09-27 06:12:44,WORKSTATION-004,akumar,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10186,2025-09-27 06:24:58,WORKSTATION-010,jsmith,word.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10095,2025-09-27 06:50:42,WORKSTATION-001,mjones,explorer.exe,process_creation,C:\Users\report_12.docx,192.168.1.30,Medium,Normal activity on WORKSTATION-007
+10127,2025-09-27 06:59:16,WORKSTATION-005,akumar,explorer.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10029,2025-09-27 07:05:30,WORKSTATION-005,mjones,explorer.exe,file_access,NaN,192.168.1.12,Low,Normal activity on WORKSTATION-006
+10091,2025-09-27 07:13:31,WORKSTATION-005,akumar,explorer.exe,network_connection,C:\Users\report_87.docx,NaN,Low,Normal activity on WORKSTATION-008
+10006,2025-09-27 07:18:06,WORKSTATION-009,mjones,explorer.exe,file_modification,C:\Users\report_41.docx,NaN,Low,Normal activity on WORKSTATION-004
+10062,2025-09-27 07:30:59,WORKSTATION-008,jsmith,explorer.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10133,2025-09-27 07:53:10,WORKSTATION-007,akumar,explorer.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10148,2025-09-27 07:55:27,WORKSTATION-002,akumar,outlook.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10115,2025-09-27 07:57:03,WORKSTATION-005,NaN,outlook.exe,process_creation,C:\Users\report_45.docx,NaN,Low,Normal activity on WORKSTATION-010
+10018,2025-09-27 07:59:34,WORKSTATION-007,mjones,excel.exe,file_access,NaN,192.168.1.16,Low,Normal activity on WORKSTATION-007
+10205,2025-09-27 08:02:13,WORKSTATION-007,jsmith,chrome.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10032,2025-09-27 08:16:56,WORKSTATION-002,akumar,excel.exe,file_modification,C:\Users\report_31.docx,192.168.1.21,Low,Normal activity on WORKSTATION-001
+10119,2025-09-27 08:17:22,WORKSTATION-005,NaN,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10121,2025-09-27 08:19:22,WORKSTATION-006,akumar,explorer.exe,network_connection,NaN,192.168.1.30,Medium,Normal activity on WORKSTATION-007
+10015,2025-09-27 08:27:19,WORKSTATION-006,akumar,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10075,2025-09-27 08:33:01,WORKSTATION-010,jsmith,outlook.exe,file_access,C:\Users\report_23.docx,NaN,Medium,Normal activity on WORKSTATION-008
+10180,2025-09-27 08:47:04,WORKSTATION-004,NaN,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10122,2025-09-27 09:49:55,WORKSTATION-007,mjones,explorer.exe,process_creation,NaN,192.168.1.39,Medium,Normal activity on WORKSTATION-006
+10159,2025-09-27 09:58:22,WORKSTATION-008,akumar,outlook.exe,process_creation,C:\Users\report_71.docx,NaN,Low,Normal activity on WORKSTATION-003
+10185,2025-09-27 10:00:03,WORKSTATION-002,mjones,outlook.exe,network_connection,NaN,192.168.1.27,Medium,Normal activity on WORKSTATION-005
+10064,2025-09-27 10:15:40,WORKSTATION-004,akumar,word.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10011,2025-09-27 10:17:26,WORKSTATION-005,jsmith,word.exe,file_access,C:\Users\report_39.docx,192.168.1.42,Medium,Normal activity on WORKSTATION-004
+10194,2025-09-27 10:19:09,WORKSTATION-010,NaN,outlook.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10050,2025-09-27 10:44:49,WORKSTATION-009,jsmith,excel.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10038,2025-09-27 11:00:48,WORKSTATION-004,jsmith,outlook.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10101,2025-09-27 11:01:30,WORKSTATION-003,akumar,explorer.exe,network_connection,NaN,192.168.1.27,Low,Normal activity on WORKSTATION-006
+10106,2025-09-27 11:08:55,WORKSTATION-002,mjones,word.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-001
+10008,2025-09-27 11:11:52,WORKSTATION-010,akumar,excel.exe,process_creation,NaN,192.168.1.42,Low,Normal activity on WORKSTATION-002
+10196,2025-09-27 11:13:27,WORKSTATION-010,akumar,word.exe,network_connection,C:\Users\report_86.docx,192.168.1.25,Medium,Normal activity on WORKSTATION-010
+10042,2025-09-27 11:20:53,WORKSTATION-004,jsmith,chrome.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10012,2025-09-27 11:45:43,WORKSTATION-003,akumar,explorer.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-005
+10162,2025-09-27 12:00:15,WORKSTATION-007,jsmith,chrome.exe,process_creation,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10090,2025-09-27 12:51:17,WORKSTATION-003,jsmith,word.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10184,2025-09-27 12:57:35,WORKSTATION-005,akumar,word.exe,network_connection,C:\Users\report_51.docx,192.168.1.19,Low,Normal activity on WORKSTATION-001
+10051,2025-09-27 13:03:34,WORKSTATION-007,mjones,chrome.exe,file_access,C:\Users\report_76.docx,NaN,Low,Normal activity on WORKSTATION-002
+10129,2025-09-27 13:29:04,WORKSTATION-010,mjones,word.exe,network_connection,NaN,192.168.1.38,Low,Normal activity on WORKSTATION-006
+10068,2025-09-27 13:31:58,WORKSTATION-010,jsmith,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-010
+10104,2025-09-27 13:36:08,WORKSTATION-004,jsmith,word.exe,file_access,NaN,192.168.1.18,Medium,Normal activity on WORKSTATION-005
+10178,2025-09-27 13:42:01,WORKSTATION-001,akumar,explorer.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-001
+10134,2025-09-27 14:10:53,WORKSTATION-009,akumar,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10163,2025-09-27 14:11:05,WORKSTATION-009,jsmith,chrome.exe,network_connection,NaN,192.168.1.17,Medium,Normal activity on WORKSTATION-003
+10210,2025-09-27 14:15:00,WORKSTATION-023,mjones,update_office365.exe,process_creation,NaN,45.129.33.197,Critical,Suspicious process update_office365.exe created
+10234,2025-09-27 14:22:00,WORKSTATION-001,SYSTEM,update_office365.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10233,2025-09-27 14:22:00,WORKSTATION-001,SYSTEM,update_office365.exe,network_connection,NaN,192.168.1.24,High,Network scanning detected
+10214,2025-09-27 14:24:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.15,High,Network scanning detected
+10211,2025-09-27 14:25:00,WORKSTATION-008,SYSTEM,update_office365.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10231,2025-09-27 14:25:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,192.168.1.44,High,Network scanning detected
+10216,2025-09-27 14:26:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10225,2025-09-27 14:26:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.24,High,Network scanning detected
+10219,2025-09-27 14:29:00,WORKSTATION-001,SYSTEM,update_office365.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10212,2025-09-27 14:29:00,WORKSTATION-003,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10228,2025-09-27 14:30:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10235,2025-09-27 14:31:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10237,2025-09-27 14:33:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10215,2025-09-27 14:34:00,WORKSTATION-002,SYSTEM,encrypt_v2.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10224,2025-09-27 14:34:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,192.168.1.30,High,Network scanning detected
+10229,2025-09-27 14:35:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,network_connection,NaN,192.168.1.41,High,Network scanning detected
+10222,2025-09-27 14:37:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.44,High,Network scanning detected
+10213,2025-09-27 14:37:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10227,2025-09-27 14:38:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.22,High,Network scanning detected
+10217,2025-09-27 14:39:00,WORKSTATION-023,SYSTEM,update_office365.exe,network_connection,NaN,192.168.1.47,High,Network scanning detected
+10236,2025-09-27 14:39:00,WORKSTATION-008,SYSTEM,update_office365.exe,network_connection,NaN,192.168.1.45,High,Network scanning detected
+10223,2025-09-27 14:40:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.41,High,Network scanning detected
+10232,2025-09-27 14:40:00,WORKSTATION-009,SYSTEM,update_office365.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10221,2025-09-27 14:42:00,WORKSTATION-004,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10218,2025-09-27 14:43:00,WORKSTATION-004,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.31,High,Network scanning detected
+10220,2025-09-27 14:43:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10230,2025-09-27 14:43:00,WORKSTATION-008,SYSTEM,svchost32.exe,network_connection,NaN,192.168.1.32,High,Network scanning detected
+10226,2025-09-27 14:43:00,WORKSTATION-023,SYSTEM,svchost32.exe,network_connection,NaN,45.129.33.197,High,Network scanning detected
+10258,2025-09-27 14:45:00,WORKSTATION-006,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10257,2025-09-27 14:46:00,WORKSTATION-006,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10254,2025-09-27 14:47:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10246,2025-09-27 14:47:00,WORKSTATION-005,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10240,2025-09-27 14:48:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10259,2025-09-27 14:50:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10242,2025-09-27 14:52:00,WORKSTATION-009,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10249,2025-09-27 14:52:00,WORKSTATION-006,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10250,2025-09-27 14:52:00,WORKSTATION-005,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10244,2025-09-27 14:53:00,WORKSTATION-005,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10245,2025-09-27 14:53:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10255,2025-09-27 14:57:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10248,2025-09-27 14:59:00,WORKSTATION-010,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10260,2025-09-27 15:00:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10241,2025-09-27 15:01:00,WORKSTATION-009,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10256,2025-09-27 15:02:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10262,2025-09-27 15:03:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10243,2025-09-27 15:04:00,WORKSTATION-010,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10261,2025-09-27 15:05:00,WORKSTATION-005,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10252,2025-09-27 15:05:00,WORKSTATION-006,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10251,2025-09-27 15:06:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10238,2025-09-27 15:06:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10253,2025-09-27 15:09:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10239,2025-09-27 15:10:00,WORKSTATION-009,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10263,2025-09-27 15:13:00,WORKSTATION-010,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10264,2025-09-27 15:14:00,WORKSTATION-023,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10279,2025-09-27 15:15:00,WORKSTATION-001,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_18.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10269,2025-09-27 15:15:00,WORKSTATION-009,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_38.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10247,2025-09-27 15:15:00,WORKSTATION-001,SYSTEM,svchost32.exe,process_creation,NaN,45.129.33.197,Critical,Lateral movement: svchost32.exe spreading
+10283,2025-09-27 15:17:00,WORKSTATION-009,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_19.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10290,2025-09-27 15:17:00,WORKSTATION-001,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_28.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10292,2025-09-27 15:18:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_6.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10276,2025-09-27 15:18:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_15.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10285,2025-09-27 15:19:00,WORKSTATION-006,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_46.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10286,2025-09-27 15:19:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_25.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10274,2025-09-27 15:19:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_47.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10298,2025-09-27 15:20:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_18.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10265,2025-09-27 15:22:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_45.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10299,2025-09-27 15:23:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_10.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10295,2025-09-27 15:24:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_25.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10271,2025-09-27 15:24:00,WORKSTATION-009,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_37.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10273,2025-09-27 15:25:00,WORKSTATION-006,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_49.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10277,2025-09-27 15:25:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_50.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10287,2025-09-27 15:26:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_6.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10266,2025-09-27 15:30:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_3.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10280,2025-09-27 15:30:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_23.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10275,2025-09-27 15:31:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_23.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10297,2025-09-27 15:31:00,WORKSTATION-001,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_44.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10293,2025-09-27 15:32:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_39.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10291,2025-09-27 15:32:00,WORKSTATION-001,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_33.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10272,2025-09-27 15:33:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_44.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10268,2025-09-27 15:36:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_12.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10267,2025-09-27 15:36:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_35.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10282,2025-09-27 15:36:00,WORKSTATION-001,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_43.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10284,2025-09-27 15:37:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\jsmith\report_6.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10296,2025-09-27 15:38:00,WORKSTATION-010,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_16.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10289,2025-09-27 15:39:00,WORKSTATION-009,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_7.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10270,2025-09-27 15:39:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_26.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10294,2025-09-27 15:40:00,WORKSTATION-023,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_25.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10281,2025-09-27 15:45:00,WORKSTATION-009,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_28.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10278,2025-09-27 15:45:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\akumar\report_26.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10288,2025-09-27 15:45:00,WORKSTATION-005,SYSTEM,encrypt_v2.exe,file_modification,C:\Users\mjones\report_29.locked,NaN,Critical,File encryption: encrypt_v2.exe
+10141,2025-09-27 16:43:15,WORKSTATION-007,akumar,outlook.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10088,2025-09-27 17:03:25,WORKSTATION-010,akumar,outlook.exe,file_modification,C:\Users\report_56.docx,192.168.1.16,Low,Normal activity on WORKSTATION-003
+10004,2025-09-27 17:25:06,WORKSTATION-004,jsmith,chrome.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10151,2025-09-27 17:29:25,WORKSTATION-006,mjones,excel.exe,network_connection,C:\Users\report_50.docx,NaN,Low,Normal activity on WORKSTATION-008
+10094,2025-09-27 17:32:08,WORKSTATION-010,mjones,chrome.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10113,2025-09-27 17:37:23,WORKSTATION-005,mjones,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10201,2025-09-27 18:15:46,WORKSTATION-008,NaN,excel.exe,file_modification,C:\Users\report_99.docx,NaN,Medium,Normal activity on WORKSTATION-007
+10043,2025-09-27 18:24:05,WORKSTATION-008,akumar,word.exe,file_modification,C:\Users\report_50.docx,NaN,Low,Normal activity on WORKSTATION-003
+10197,2025-09-27 18:43:50,WORKSTATION-009,akumar,outlook.exe,file_access,C:\Users\report_15.docx,NaN,Medium,Normal activity on WORKSTATION-009
+10130,2025-09-27 18:49:13,WORKSTATION-009,jsmith,chrome.exe,network_connection,C:\Users\report_68.docx,NaN,Low,Normal activity on WORKSTATION-006
+10187,2025-09-27 19:24:38,WORKSTATION-003,NaN,word.exe,file_modification,NaN,192.168.1.40,Low,Normal activity on WORKSTATION-004
+10019,2025-09-27 19:43:42,WORKSTATION-004,akumar,excel.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10009,2025-09-27 19:44:31,WORKSTATION-003,akumar,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10105,2025-09-27 19:45:08,WORKSTATION-001,mjones,chrome.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10028,2025-09-27 20:38:21,WORKSTATION-005,jsmith,word.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-006
+10155,2025-09-27 20:56:54,WORKSTATION-010,mjones,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-006
+10014,2025-09-27 21:45:43,WORKSTATION-005,akumar,excel.exe,file_modification,C:\Users\report_97.docx,NaN,Low,Normal activity on WORKSTATION-005
+10137,2025-09-27 21:46:37,WORKSTATION-008,NaN,outlook.exe,file_modification,C:\Users\report_79.docx,NaN,Medium,Normal activity on WORKSTATION-008
+10076,2025-09-27 22:21:28,WORKSTATION-010,mjones,explorer.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-002
+10171,2025-09-27 22:39:41,WORKSTATION-003,akumar,excel.exe,network_connection,C:\Users\report_64.docx,NaN,Low,Normal activity on WORKSTATION-009
+10025,2025-09-27 23:11:12,WORKSTATION-006,mjones,chrome.exe,process_creation,NaN,192.168.1.14,Low,Normal activity on WORKSTATION-008
+10070,2025-09-27 23:18:55,WORKSTATION-004,jsmith,chrome.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10034,2025-09-27 23:50:54,WORKSTATION-004,mjones,outlook.exe,process_creation,C:\Users\report_30.docx,NaN,Medium,Normal activity on WORKSTATION-004
+10054,2025-09-28 00:45:11,WORKSTATION-004,akumar,chrome.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-004
+10036,2025-09-28 01:15:37,WORKSTATION-003,mjones,explorer.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10061,2025-09-28 01:48:31,WORKSTATION-009,NaN,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-004
+10188,2025-09-28 02:12:29,WORKSTATION-006,jsmith,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10120,2025-09-28 02:17:18,WORKSTATION-006,mjones,excel.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10077,2025-09-28 03:45:28,WORKSTATION-007,mjones,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10191,2025-09-28 03:47:23,WORKSTATION-003,akumar,outlook.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10169,2025-09-28 04:19:28,WORKSTATION-007,mjones,word.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10154,2025-09-28 04:35:10,WORKSTATION-010,mjones,explorer.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10114,2025-09-28 05:07:56,WORKSTATION-002,akumar,chrome.exe,network_connection,C:\Users\report_99.docx,192.168.1.49,Medium,Normal activity on WORKSTATION-009
+10139,2025-09-28 05:39:12,WORKSTATION-009,jsmith,chrome.exe,file_modification,C:\Users\report_7.docx,NaN,Low,Normal activity on WORKSTATION-009
+10175,2025-09-28 06:05:29,WORKSTATION-006,mjones,word.exe,process_creation,C:\Users\report_26.docx,NaN,Low,Normal activity on WORKSTATION-009
+10200,2025-09-28 06:09:57,WORKSTATION-005,akumar,chrome.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10078,2025-09-28 06:27:56,WORKSTATION-009,jsmith,word.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-010
+10167,2025-09-28 06:55:02,WORKSTATION-010,mjones,word.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10053,2025-09-28 07:05:55,WORKSTATION-005,mjones,explorer.exe,file_access,C:\Users\report_45.docx,NaN,Low,Normal activity on WORKSTATION-001
+10086,2025-09-28 07:46:51,WORKSTATION-002,mjones,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-002
+10108,2025-09-28 07:53:58,WORKSTATION-002,mjones,word.exe,file_modification,NaN,NaN,Medium,Normal activity on WORKSTATION-010
+10199,2025-09-28 07:58:10,WORKSTATION-001,akumar,excel.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-005
+10149,2025-09-28 08:39:59,WORKSTATION-008,jsmith,explorer.exe,network_connection,NaN,NaN,Low,Normal activity on WORKSTATION-001
+10097,2025-09-28 08:48:05,WORKSTATION-002,jsmith,excel.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10135,2025-09-28 09:27:16,WORKSTATION-004,jsmith,chrome.exe,file_access,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10145,2025-09-28 09:56:53,WORKSTATION-010,akumar,word.exe,file_modification,C:\Users\report_38.docx,NaN,Medium,Normal activity on WORKSTATION-006
+10074,2025-09-28 09:58:17,WORKSTATION-009,jsmith,word.exe,file_access,C:\Users\report_95.docx,NaN,Low,Normal activity on WORKSTATION-001
+10083,2025-09-28 10:14:10,WORKSTATION-005,mjones,outlook.exe,network_connection,C:\Users\report_58.docx,NaN,Low,Normal activity on WORKSTATION-006
+10140,2025-09-28 10:32:01,WORKSTATION-002,jsmith,outlook.exe,network_connection,C:\Users\report_19.docx,192.168.1.15,Low,Normal activity on WORKSTATION-008
+10047,2025-09-28 10:43:47,WORKSTATION-008,mjones,excel.exe,file_access,C:\Users\report_31.docx,NaN,Low,Normal activity on WORKSTATION-009
+10065,2025-09-28 10:51:05,WORKSTATION-010,jsmith,chrome.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-009
+10136,2025-09-28 10:55:13,WORKSTATION-001,akumar,chrome.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-010
+10023,2025-09-28 11:05:15,WORKSTATION-003,akumar,explorer.exe,file_modification,NaN,NaN,Low,Normal activity on WORKSTATION-007
+10046,2025-09-28 11:41:50,WORKSTATION-008,akumar,excel.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-005
+10166,2025-09-28 12:16:14,WORKSTATION-001,jsmith,explorer.exe,file_access,C:\Users\report_99.docx,NaN,Medium,Normal activity on WORKSTATION-004
+10057,2025-09-28 12:21:17,WORKSTATION-001,mjones,outlook.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10007,2025-09-28 12:24:01,WORKSTATION-006,mjones,excel.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-009
+10126,2025-09-28 12:50:52,WORKSTATION-008,akumar,word.exe,process_creation,C:\Users\report_81.docx,NaN,Low,Normal activity on WORKSTATION-002
+10092,2025-09-28 13:08:34,WORKSTATION-005,mjones,outlook.exe,network_connection,C:\Users\report_26.docx,192.168.1.40,Low,Normal activity on WORKSTATION-004
+10059,2025-09-28 13:19:16,WORKSTATION-005,jsmith,explorer.exe,process_creation,C:\Users\report_32.docx,NaN,Medium,Normal activity on WORKSTATION-010
+10080,2025-09-28 13:55:06,WORKSTATION-004,mjones,word.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-008
+10072,2025-09-28 14:30:27,WORKSTATION-010,jsmith,excel.exe,file_access,NaN,NaN,Low,Normal activity on WORKSTATION-003
+10079,2025-09-28 14:31:13,WORKSTATION-008,jsmith,outlook.exe,file_modification,C:\Users\report_57.docx,192.168.1.41,Low,Normal activity on WORKSTATION-001
+10030,2025-09-28 14:56:47,WORKSTATION-005,mjones,word.exe,network_connection,NaN,NaN,Medium,Normal activity on WORKSTATION-003
+10160,2025-09-28 14:58:04,WORKSTATION-003,akumar,chrome.exe,file_access,C:\Users\report_18.docx,NaN,Low,Normal activity on WORKSTATION-001
+10081,2025-09-28 15:19:56,WORKSTATION-003,akumar,outlook.exe,process_creation,NaN,NaN,Low,Normal activity on WORKSTATION-004
+10110,2025-09-28 15:26:56,WORKSTATION-009,jsmith,excel.exe,network_connection,C:\Users\report_53.docx,NaN,Low,Normal activity on WORKSTATION-007
+10107,2025-09-28 15:44:23,WORKSTATION-009,akumar,explorer.exe,file_access,C:\Users\report_52.docx,NaN,Low,Normal activity on WORKSTATION-008
