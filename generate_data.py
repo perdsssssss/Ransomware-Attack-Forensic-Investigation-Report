@@ -1,69 +1,232 @@
 import pandas as pd
+import random
+from datetime import datetime, timedelta
 
-print("="*60)
-print("ACTIVITY 11: DATA PREPROCESSING")
-print("="*60)
+# Set random seed for reproducibility
+random.seed(42)
 
-# Load raw data
-print("\nLoading raw data...")
-try:
-    df = pd.read_csv('final_project_raw_data.csv')
-    print(f"✓ Loaded {len(df)} events from final_project_raw_data.csv")
-except FileNotFoundError:
-    print("ERROR: final_project_raw_data.csv not found!")
-    print("Please run ACT11.py first to generate raw data.")
-    exit(1)
+print("Generating ransomware attack simulation data...")
 
-# Clean missing values
-print("\nCleaning missing values...")
-df['user_account'] = df['user_account'].replace('NaN', 'SYSTEM')
-df['network_connection'] = df['network_connection'].replace('NaN', 'NONE')
-df['file_modified'] = df['file_modified'].replace('NaN', 'UNKNOWN')
-print("✓ Replaced NaN values")
+# Configuration
+NUM_EVENTS = 600
+NUM_WORKSTATIONS = 20
+NUM_SERVERS = 2
+ATTACK_START = datetime(2025, 9, 27, 14, 15, 0)  # Sept 27, 2:15 PM
+ATTACK_END = datetime(2025, 9, 27, 15, 45, 0)    # Sept 27, 3:45 PM
+SIMULATION_START = datetime(2025, 9, 26, 8, 0, 0)
+SIMULATION_END = datetime(2025, 9, 28, 16, 0, 0)
 
-# Convert timestamp
-print("\nConverting timestamp to datetime...")
-df['timestamp'] = pd.to_datetime(df['timestamp'])
-print("✓ Timestamp converted")
+# Define legitimate and malicious processes
+legitimate_processes = [
+    "explorer.exe", "chrome.exe", "outlook.exe", "excel.exe", 
+    "word.exe", "powerpnt.exe", "teams.exe", "svchost.exe",
+    "notepad.exe", "python.exe", "msedge.exe", "firefox.exe"
+]
 
-# Feature engineering
-print("\nEngineering new features...")
+malicious_processes = [
+    "update_office365.exe", "svchost32.exe", "encrypt_v2.exe",
+    "system_update.exe", "windows_defender_real.exe"
+]
 
-# Time-based features
-df['hour_of_day'] = df['timestamp'].dt.hour
-df['day_of_week'] = df['timestamp'].dt.day_name()
-df['is_weekend'] = df['timestamp'].dt.dayofweek.isin([5, 6]).astype(int)
-df['is_after_hours'] = ((df['hour_of_day'] < 8) | (df['hour_of_day'] > 18)).astype(int)
+# Internal IP ranges
+internal_ips = [f"192.168.1.{i}" for i in range(10, 200)]
+external_malicious_ip = "45.129.33.197"
 
-# Network-based features
-df['is_external_ip'] = df['network_connection'].apply(
-    lambda x: 1 if (x != 'NONE' and not str(x).startswith('192.168')) else 0
-)
+# Generate hostnames
+workstations = [f"WORKSTATION-{str(i).zfill(3)}" for i in range(1, NUM_WORKSTATIONS + 1)]
+servers = [f"SERVER-{str(i).zfill(2)}" for i in range(1, NUM_SERVERS + 1)]
+all_hosts = workstations + servers
 
-print("✓ Created 5 new features:")
-print("  • hour_of_day (0-23)")
-print("  • day_of_week (Monday-Sunday)")
-print("  • is_weekend (0 or 1)")
-print("  • is_after_hours (0 or 1)")
-print("  • is_external_ip (0 or 1)")
+# Common usernames
+usernames = ["jsmith", "mjones", "akumar", "lchen", "rdavis", "spatil", "tgarcia", "SYSTEM"]
 
-# Save cleaned data
-output = 'final_project_cleaned_data.csv'
-df.to_csv(output, index=False)
+# File paths
+legitimate_files = [
+    "C:\\Users\\{user}\\Documents\\report.docx",
+    "C:\\Users\\{user}\\Documents\\presentation.pptx",
+    "C:\\Users\\{user}\\Desktop\\data.xlsx",
+    "C:\\Users\\{user}\\Downloads\\document.pdf",
+    "C:\\Program Files\\Microsoft Office\\templates\\normal.dotm"
+]
 
-print("\n" + "="*60)
-print("PREPROCESSING COMPLETE")
-print("="*60)
-print(f"\n✓ Total Events: {len(df)}")
-print(f"✓ Total Columns: {len(df.columns)}")
-print(f"\nData Quality:")
-print(f"  • Missing user_account: 0")
-print(f"  • Missing network_connection: 0")
-print(f"  • Missing file_modified: 0")
-print(f"\nNew Features Summary:")
-print(f"  • After-hours events: {df['is_after_hours'].sum()}")
-print(f"  • Weekend events: {df['is_weekend'].sum()}")
-print(f"  • External IP connections: {df['is_external_ip'].sum()}")
-print(f"\n✓ Saved to: {output}")
-print("\n✅ Ready for Activity 12 (Analysis)")
-print("="*60)
+system_files = [
+    "C:\\Windows\\System32\\config\\SAM",
+    "C:\\Windows\\System32\\drivers\\etc\\hosts",
+    "C:\\ProgramData\\Microsoft\\Crypto\\RSA\\shadow.key"
+]
+
+# Event types
+event_types = ["file_access", "file_modification", "process_creation", "network_connection", "registry_change"]
+
+# Generate events
+events = []
+event_id = 10000
+
+# Patient zero: WORKSTATION-003
+patient_zero_host = "WORKSTATION-003"
+patient_zero_user = "mjones"
+
+# Phase 1: Normal baseline activity (85% of events before attack)
+normal_events_count = int(NUM_EVENTS * 0.70)
+
+for i in range(normal_events_count):
+    # Random timestamp before attack or after attack (normal activity continues)
+    if random.random() < 0.7:
+        timestamp = SIMULATION_START + timedelta(
+            seconds=random.randint(0, int((ATTACK_START - SIMULATION_START).total_seconds()))
+        )
+    else:
+        timestamp = ATTACK_END + timedelta(
+            seconds=random.randint(0, int((SIMULATION_END - ATTACK_END).total_seconds()))
+        )
+    
+    hostname = random.choice(all_hosts)
+    user = random.choice(usernames[:-1])  # Exclude SYSTEM for normal activity
+    process = random.choice(legitimate_processes)
+    event_type = random.choice(event_types)
+    
+    file_modified = "NaN"
+    network_connection = "NaN"
+    
+    if event_type == "file_modification":
+        file_modified = random.choice(legitimate_files).format(user=user)
+    elif event_type == "network_connection":
+        network_connection = random.choice(internal_ips)
+    
+    severity = random.choice(["Low", "Low", "Low", "Medium"])
+    
+    raw_message = f"Normal activity: {process} on {hostname}"
+    
+    events.append({
+        "event_id": event_id,
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "hostname": hostname,
+        "user_account": user if random.random() > 0.05 else "NaN",
+        "process_name": process,
+        "event_type": event_type,
+        "file_modified": file_modified,
+        "network_connection": network_connection,
+        "event_severity": severity,
+        "raw_message": raw_message
+    })
+    event_id += 1
+
+# Phase 2: Attack sequence (15% of events)
+attack_events_count = NUM_EVENTS - normal_events_count
+
+# Initial compromise
+initial_time = ATTACK_START
+events.append({
+    "event_id": event_id,
+    "timestamp": initial_time.strftime("%Y-%m-%d %H:%M:%S"),
+    "hostname": patient_zero_host,
+    "user_account": patient_zero_user,
+    "process_name": malicious_processes[0],
+    "event_type": "process_creation",
+    "file_modified": "NaN",
+    "network_connection": external_malicious_ip,
+    "event_severity": "Critical",
+    "raw_message": f"Suspicious process {malicious_processes[0]} created by {patient_zero_user}"
+})
+event_id += 1
+
+# Reconnaissance phase (2:15 PM - 2:45 PM)
+recon_start = ATTACK_START + timedelta(minutes=5)
+recon_end = ATTACK_START + timedelta(minutes=30)
+
+for i in range(int(attack_events_count * 0.2)):
+    timestamp = recon_start + timedelta(
+        seconds=random.randint(0, int((recon_end - recon_start).total_seconds()))
+    )
+    
+    hostname = patient_zero_host if random.random() < 0.6 else random.choice(workstations[:min(10, len(workstations))])
+    
+    events.append({
+        "event_id": event_id,
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "hostname": hostname,
+        "user_account": patient_zero_user if random.random() > 0.3 else "SYSTEM",
+        "process_name": random.choice(malicious_processes),
+        "event_type": "network_connection",
+        "file_modified": "NaN",
+        "network_connection": random.choice(internal_ips) if random.random() > 0.3 else external_malicious_ip,
+        "event_severity": "High",
+        "raw_message": "Network scanning activity detected"
+    })
+    event_id += 1
+
+# Lateral movement phase (2:45 PM - 3:15 PM)
+lateral_start = ATTACK_START + timedelta(minutes=30)
+lateral_end = ATTACK_START + timedelta(minutes=60)
+
+compromised_hosts = [patient_zero_host] + random.sample(workstations, min(10, len(workstations)-1))
+
+for i in range(int(attack_events_count * 0.3)):
+    timestamp = lateral_start + timedelta(
+        seconds=random.randint(0, int((lateral_end - lateral_start).total_seconds()))
+    )
+    
+    hostname = random.choice(compromised_hosts)
+    
+    events.append({
+        "event_id": event_id,
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "hostname": hostname,
+        "user_account": "SYSTEM",
+        "process_name": malicious_processes[1],
+        "event_type": "process_creation",
+        "file_modified": random.choice(system_files) if random.random() > 0.5 else "NaN",
+        "network_connection": external_malicious_ip if random.random() > 0.7 else "NaN",
+        "event_severity": "Critical",
+        "raw_message": f"Lateral movement: {malicious_processes[1]} spreading to {hostname}"
+    })
+    event_id += 1
+
+# Encryption phase (3:15 PM - 3:45 PM)
+encrypt_start = ATTACK_START + timedelta(minutes=60)
+encrypt_end = ATTACK_END
+
+for i in range(int(attack_events_count * 0.5)):
+    timestamp = encrypt_start + timedelta(
+        seconds=random.randint(0, int((encrypt_end - encrypt_start).total_seconds()))
+    )
+    
+    hostname = random.choice(compromised_hosts)
+    user = random.choice(usernames[:-1])
+    
+    file_path = random.choice(legitimate_files).format(user=user)
+    encrypted_file = file_path.replace(".docx", ".locked").replace(".xlsx", ".locked").replace(".pptx", ".locked")
+    
+    events.append({
+        "event_id": event_id,
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "hostname": hostname,
+        "user_account": "SYSTEM",
+        "process_name": malicious_processes[2],
+        "event_type": "file_modification",
+        "file_modified": encrypted_file,
+        "network_connection": "NaN",
+        "event_severity": "Critical",
+        "raw_message": f"File encryption: {file_path} encrypted by {malicious_processes[2]}"
+    })
+    event_id += 1
+
+# Sort events by timestamp
+events_df = pd.DataFrame(events)
+events_df['timestamp_sort'] = pd.to_datetime(events_df['timestamp'])
+events_df = events_df.sort_values('timestamp_sort').drop('timestamp_sort', axis=1)
+
+# Save to CSV
+output_file = "final_project_raw_data.csv"
+events_df.to_csv(output_file, index=False)
+
+print(f"\n✓ Successfully generated {len(events_df)} system events")
+print(f"✓ Saved to: {output_file}")
+print(f"\nData Summary:")
+print(f"  - Simulation Period: {SIMULATION_START} to {SIMULATION_END}")
+print(f"  - Attack Window: {ATTACK_START} to {ATTACK_END}")
+print(f"  - Total Hosts: {len(all_hosts)} ({NUM_WORKSTATIONS} workstations, {NUM_SERVERS} servers)")
+print(f"  - Compromised Hosts: {len(compromised_hosts)}")
+print(f"  - Patient Zero: {patient_zero_host} (User: {patient_zero_user})")
+print(f"  - Malicious C&C Server: {external_malicious_ip}")
+print(f"\nRaw data generation complete!")
