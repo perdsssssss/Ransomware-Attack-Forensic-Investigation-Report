@@ -1,4 +1,4 @@
-# Ransomware Attack Forensic Investigation
+# Ransomware Attack Forensic Investigation 
 
 A comprehensive forensic analysis project demonstrating the application of machine learning and NLP techniques to detect and reconstruct a simulated ransomware attack on a corporate network.
 
